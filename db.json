@@ -1,0 +1,72 @@
+[
+    {
+        "model": "core.country",
+        "pk": 1,
+        "fields": {
+            "name": "India"
+        }
+    },
+    {
+        "model": "core.country",
+        "pk": 2,
+        "fields": {
+            "name": "United States"
+        }
+    },
+    {
+        "model": "core.state",
+        "pk": 1,
+        "fields": {
+            "name": "Gujarat",
+            "country": 1
+        }
+    },
+    {
+        "model": "core.state",
+        "pk": 2,
+        "fields": {
+            "name": "Maharashtra",
+            "country": 1
+        }
+    },
+    {
+        "model": "core.state",
+        "pk": 3,
+        "fields": {
+            "name": "California",
+            "country": 2
+        }
+    },
+    {
+        "model": "core.city",
+        "pk": 1,
+        "fields": {
+            "name": "Rajkot",
+            "state": 1
+        }
+    },
+    {
+        "model": "core.city",
+        "pk": 2,
+        "fields": {
+            "name": "Mumbai",
+            "state": 2
+        }
+    },
+    {
+        "model": "core.city",
+        "pk": 3,
+        "fields": {
+            "name": "Ahmedabad",
+            "state": 1
+        }
+    },
+    {
+        "model": "core.city",
+        "pk": 4,
+        "fields": {
+            "name": "Sacramento",
+            "state": 3
+        }
+    }
+]
